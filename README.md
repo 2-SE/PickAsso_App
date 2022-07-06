@@ -2,20 +2,96 @@
 The app's goal is to centralize and reinforce the communication of a high school administration and associations.
 
 
+
 # Pick-Asso (Flutter - Dart)
+<!--
+A few resources to get you started if this is your first Flutter project:
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+For help getting started with Flutter development, view the [online documentation](https://docs.flutter.dev/), which offers tutorials, samples, guidance on mobile development, and a full API reference.
+-->
 
 
+
+## Presentation of our Finding and the Project:
+
+### Our Finding :
+During our schooling in higher education (college), we noticed a few things that could be improved. 
+
+  • Firstly, we can notice that there are many means of communication set up and this on really different communication networks without the messages being very well structured. Although, message senders can't see if their messages are (or aren't) visualized.
+
+  • Furthermore, there are a lot of website used. The goal/objective of that was originally to have a specific website for each content and therefore to structure well everything usefull for all students. But, the fact is that we just messed up with that because there is too much websites.
+
+  • ...
+
+  • ((Asso/Prof/Etudiants))
+
+### The Project :
+To overcome these problems, we had the idea to develop an mobile application (and later maybe a website) to centralized every current applications of higher education (college).
+Pick-Asso has the objective to :
+   - give a better way to send a message to their students with a nice feed, 
+   - see if the message is read (data-analysis), 
+   - make a real calendar of all the events that have taken place and will take place in the establishment (meeting with professionals, open days of the establishment, conferences, etc), 
+   - have our own calendar for all classes we have (as weel for the calendar of others students/promotions of our school), 
+   - have a schedule of free classrooms (with every specification of each classrooms like the number of places, if the classroom have a video projector, ect), 
+   - and more...
+
+
+
+-------------------------------------
+
+## Table of Contents :
+1. [Specifications & Requirements](#specification-and-requirements)
+2. [Current Status of the Project](#current-status-project)
+3. [Features](#features)
+4. [Developer Team](#dev-team)
+
+-------------------------------------
+
+
+
+<a name="specification-and-requirements"></a>
+## Specifications & Requirements :
+
+
+
+<a name="current-status-project"></a>
+## Current Status of the Project :
+The project begins a new cycle. 
+We have already set up this project in different languages (Kotlin and Swift for example), but we begin it again in order to add new functionalities: mainly to add the possibility of seeing our application on a web browser, to be able to make some data- analysis of each message (number of impressions, number of participants in an event, possibility of conducting surveys, etc.) and to be able to make marks/grading management for professors (some others features are comming with these too).
+
+
+<a name="features"></a>
+## Features :
+
+
+
+<a name="dev-team"></a>
+## Developer Team :
+  - [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hugo-bonansea-a284ba18a/) ← M. BONANSEA Hugo,
+  - [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maxime-chardon-4b9846183/) ← M. CHARDON Maxime,
+  - [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/quentin-lecomte-542234162/) ← M. LECOMTE Quentin,
+  - [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/julien-leplat/) ← M. LEPLAT Julien,
+  - [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mael-longefay-guinand/) ← M. LONGEFAY-GUINAND Mael,
+  - [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/antoine-bazire-2b7454233/) ← M. BAZIRE Antoine (Trainee : 2022 June-September)
+
+
+## License
+***© COPYRIGHT 2022 - All Rights Reserved - 2.SE! Corp***  
+
+
+
+<!--
 ## Présentation du Problème et du Projet :
 ### Le Problème :
 Nous avons remarqué des problèmes de communication au sein d'écoles du supérieur. Ainsi, nous avons eu l'idée de développer une application mobile et web pour y remédier.
-
 Ces problèmes de communications se retrouvent également au sein des différentes associations des écoles. De part la décentralisation des informations, les étudiants se retrouvent à devoir circuler entre les groupes Facebook, les Instagrams, les Discords et groupes Microsoft-Teams.
-
 De plus, l'impossibilité via ses réseaux d'obtenir un calendrier clair des différents événements à venir proposés.
+
 ### Le Projet :
 Pick-Asso est une application permettant à l'administration et aux responsables des associations étudiantes (président et pôle communication des associations) d'un même campus ou d'une école de pouvoir faire leurs messages de communication et programmer des événements.
-
 Le but de cette application est donc rendre les messages de l'administration plus vivants (avec data analysis également) et de centraliser tous les messages des différentes associations et d'avoir un calendrier clair des événements à venir. Cette application permet également de pouvoir se renseigner sur la composition des membre d'une association, filtrer les messages en fonction du sujet évoqué, d'obtenir son emploi du temps et bien plus encore.
+
 
 -------------------------------------
 
@@ -26,6 +102,7 @@ Le but de cette application est donc rendre les messages de l'administration plu
 4. [Equipe de Développeurs](#team)
 
 -------------------------------------
+
 
 <a name="cahier-des-charges"></a>
 ## Cahier des Charges :
@@ -109,19 +186,11 @@ Le projet débute un nouveau cycle. Nous avons déjà mis en place ce projet sou
   - M. LECOMTE Quentin
   - M. LEPLAT Julien
   - M. LONGEFAY-GUINAND Mael
-  - M. BAZIRE Antoine (Stagiaire)
+  - M. BAZIRE Antoine (Stagiaire : Juin-Septembre 2022)
 
 -------------------------------------
 
+
 ## License
-***© COPYRIGHT 2022 - Tous Droits Réservés à 2.SE! Corp***  
-*All Rights Reserved*
-
-
-
-<!--
-A few resources to get you started if this is your first Flutter project:
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-For help getting started with Flutter development, view the [online documentation](https://docs.flutter.dev/), which offers tutorials, samples, guidance on mobile development, and a full API reference.
+***© COPYRIGHT 2022 - All Rights Reserved - 2.SE! Corp***  
 -->
