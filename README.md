@@ -65,29 +65,43 @@ Pick-Asso has the objective to :
 - Have different types of calendar views : day-to-day view, week-to-week view, month-to-month view, other...
 - Possibility to receive a notification when there is a change in his schedule
 - Possibility to modify our own schedule
-- 
+- Possibility of modifying informations from our own student account
+- ...
 
 ### Possibles Evolutions of the Specifications & Requirements :
-- Création d'un super-user (administration de l'école) qui aurait "tous les droits" (ou presque)
-- Possibilité de voir toutes les informations importantes de l'école ainsi que les personnes à contacter en fonction des besoins.
-- Possibilité de faire une demande auprès de l'école pour la création d'une association (et possibilité de rajouter d'autres contributeurs à l'association - Président, Vice, Trésorier, etc...)
-- Avoir un listing des différentes associations de notre école
-- Avoir un fil d'actualités (*affichage des différents posts des association dans l'ordre "du plus récent au plus ancien"*) avec la possibilité de filtrer "Message de l'école",  "Messages de toutes les associations" et "Message de mes associations favorites" mais aussi par "tag".
-- Possibilité de mettre des associations en tant que "Favorites"
-- Possibilité de publication dans le fil d'actualités (*publier des posts au nom de son association en remplissant différents champs*) régit par un système de "tags" permettant de catégorisé le message envoyé - les posts peuvent être des simples messages de communication, des évènements, des sondages (ou autre).
-- Création d'un calendrier des différents évèments à venir (*sous forme de liste chronologique*)
-- La possibilité en tant qu'étudiant de montrer sa participation à un évenement ainsi que de voir la liste des participant à cet événement
-- Notifications et rappels (en fonctions du choix de l'utilisateur)
-- Espace commentaire et réaction (*type Like Facebook*)
+- Possibility of connection to accounts with different rights: Administration Account, Teacher Account and Student Account (& Association Account)
+- Have the possibility to see all the information of his school (members of the administration, list and addresses of all the campuses, useful contacts and use cases, etc.)
+- Have a news feed (*display of the various posts from the administration and associations in the order "from the most recent to the oldest"*) with the possibility of filtering "Message from the school", "Messages from all the associations" and "Message from my favorite associations" but also by "Tags" affiliated with each of the messages.
+- Ability to watch a single message
+- Possibility of publication in the news feed (*publish posts on behalf of your association by filling in different fields*) governed by a system of "tags" allowing the message sent to be categorized - posts can be simple communication messages , events, surveys (or other to be defined).
+- Have a list of the different student associations of our school/campus
+- To be able to see the information of an association (*Name, Acronym, Logo/Image of the association, Description of the association, Constitution of its Office*)
+- Possibility to put associations as "Favorites"
+- To be able, as a member of the office of an association, to modify the information of an association and to be able to delete it
+- Possibility of making a request to the school for the creation of an association (and possibility of adding other contributors to the association: President, Vice-President, Treasurer, etc.)
+- Possibility, as a member of the office of an association, to modify a message previously sent (*Title, Message, Logo/Image, Type of message (event/communication), Date and Time of event*) or to to delete
+- The possibility as a student to show his participation in an event (limited places or not)
+- The possibility as a member of the office of an association to see the list of participants in this event created and published by this same association
+- Notifications and reminders (depending on the user's choice)
+- Comment and reaction space (*type Like Facebook* - WARNING about the GDPR standard (European standard))
 
-- Pouvoir voir les informations d'une association (*Nom, Sigle, Logo/Image de l'association, Description de l'association, Constitution de son Bureau*)
-- Pouvoir modifier les information d'une association et pouvoir la supprimer 
-- Possibilité de modification et suppression d'un compte étudiant
-- Possibilité de modifier un message précédemment envoyé (*Titre, Message, Logo/Image, Type de message (évènement/communication), Date et Heure d'évènement*)
-- Possibilité de supprimer un message précédemment envoyé
-- Pouvoir filtrer les posts d'une seule association
+<!--
+- Possibilité de connection a des comptes ayant des droits différents : Compte d'Aministration, Compte de Professeur et Compte d'Étudiants (& Compte d'Association)
+- Avoir la possibilité de voir toutes les informations de son école (membres de l'administration, liste et adresses de tous les campus, contacts utiles et cas d'utilisation, etc)
+- Avoir un fil d'actualités (*affichage des différents posts de l'administration et des associations dans l'ordre "du plus récent au plus ancien"*) avec la possibilité de filtrer "Message de l'école",  "Messages de toutes les associations" et "Message de mes associations favorites" mais aussi par "Tags" affiliés à chacun des messages.
 - Possibilité de regarder un seul et unique message
-- Possibilité de voir les évènements passés dans le calendrier (*switch entre évènements passés et futurs*)
+- Possibilité de publication dans le fil d'actualités (*publier des posts au nom de son association en remplissant différents champs*) régit par un système de "tags" permettant de catégorisé le message envoyé - les posts peuvent être des simples messages de communication, des évènements, des sondages (ou autre à definir).
+- Avoir un listing des différentes associations étudiantes de notre école/campus
+- Pouvoir voir les informations d'une association (*Nom, Sigle, Logo/Image de l'association, Description de l'association, Constitution de son Bureau*)
+- Possibilité de mettre des associations en tant que "Favorites"
+- Pouvoir, en tant que membre du bureau d'une association, modifier les informations d'une association et pouvoir la supprimer
+- Possibilité de faire une demande auprès de l'école pour la création d'une association (et possibilité de rajouter d'autres contributeurs à l'association : Président, Vice-Président, Trésorier, etc)
+- Possibilité, en tant que membre du bureau d'une association, de modifier un message précédemment envoyé (*Titre, Message, Logo/Image, Type de message (évènement/communication), Date et Heure d'évènement*) ou de le supprimer
+- La possibilité en tant qu'étudiant de montrer sa participation à un événement (places limités ou non) 
+- La possibilité en tant que membre du bureau d'une association de voir la liste des participant à cet événement créé et publié par cette même association
+- Notifications et rappels (en fonctions du choix de l'utilisateur)
+- Espace commentaire et réaction (*type Like Facebook* - WARNING à propos de la norme RGPD (norme Européenne))
+-->
 
 
 
@@ -108,18 +122,31 @@ We have already set up this project in different languages (Kotlin and Swift for
 
 <a name="features"></a>
 ## Features :
-#### 1. [General Features](#general-features)
-#### 2. [Features for the 1st Release](#features-1st-release)
-#### 3. [Other Features](#other-features)
+###### 1. [Features for the First Release](#features-1st-release)
+###### 2. [Other Features for Later](#other-features)
 
-<a name="general-features"></a>
-### General Features :
+
 
 <a name="features-1st-release"></a>
 ### Features for the 1st Release :
+- Sign-in / Sign-up (login) / Sign-out (logout) with educationnal email
+- Create a "set new password" view (with an email send when pressed)
+- Create a student account (choose its year-of-promotion, specialization, campus, etc...)
+- Create a view for modify every informations given when the account was created
+- Students have access to their own class-schedule
+- Students have access to the class-schedule of the other promotions in the same campus as there are
+- Students have access to the free classroom schedule
+- Receive a notification if there is a change in the schedule
+- Create a deadline (linked maybe with others student if the deadline is common to the whole groupe)
+- Create a navigation drawer
+- Create a "Contact Us" view (before and after the connexion on the application)
+
+
 
 <a name="other-features"></a>
-### Other Features :
+### Other Features for Later :
+#### The priority of each of its features is marked in brackets ().
+...
 
 
 
