@@ -145,7 +145,7 @@ We have already set up this project in different languages (Kotlin and Swift for
 
 <a name="other-features"></a>
 ### Other Features for Later :
-#### The priority of each of its features is marked in brackets ().
+#### The priority of each of its features is marked in parentheses ().
 ...
 
 
