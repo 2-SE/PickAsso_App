@@ -1,5 +1,5 @@
 # 2.SE! - Pick'Asso App Project
-The app's goal is to centralize and reinforce the communication of a high school administration and associations.
+The app's goal is to centralize and reinforce the way of taking information about your own high school administration (and more).
 
 <!--
 A few resources to get you started if this is your first Flutter project:
