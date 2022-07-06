@@ -82,7 +82,7 @@ Pick-Asso has the objective to :
 - Possibility, as a member of the office of an association, to modify a message previously sent (*Title, Message, Logo/Image, Type of message (event/communication), Date and Time of event*) or to to delete
 - The possibility as a student to show his participation in an event (limited places or not)
 - The possibility as a member of the office of an association to see the list of participants in this event created and published by this same association
-- Notifications and reminders (depending on the user's choice)
+- Notifications and reminders (depending on the user's settings choice)
 - Comment and reaction space (*type Like Facebook* - WARNING about the GDPR standard (European standard))
 
 <!--
