@@ -1,5 +1,5 @@
 # 2.SE! - Pick'Asso App Project
-The app's goal is to centralize and reinforce the way of taking information about your own high school administration (and more).
+The app's goal is to centralize and reinforce the way of taking and sharing information about your high school administration (and more).
 
 <!--
 A few resources to get you started if this is your first Flutter project:
@@ -8,35 +8,32 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the [online documentation](https://docs.flutter.dev/), which offers tutorials, samples, guidance on mobile development, and a full API reference.
 -->
 
-
-
 -------------------------------------
 
+## Presentation of the Situation and the Project:
 
-
-## Presentation of our Finding and the Project:
-
-### Our Finding :
+### The Situation :
 During our schooling in higher education (college), we noticed a few things that could be improved. 
 
-  • Firstly, we can notice that there are many means of communication set up and this on really different communication networks without the messages being very well structured. Although, message senders can't see if their messages are (or aren't) visualized.
+  • First, we noticed that there are many means of communication on different communication networks. The messages are not very well structured either. On most of the networks, message senders can't really know who visualized the message.
+  
+  • Furthermore, there are a lot of website used. The goal/objective of that was originally to have a specific website for each type of content. It was made like this  to have everything well-structured. This was done this way to be useful for the students. In reality, this does not serve its purpose, the information is scattered by all of the networks. Students are often lost when they try to find specific information.
 
-  • Furthermore, there are a lot of website used. The goal/objective of that was originally to have a specific website for each type of content and therefore to structure well everything that is useful to all students. But, the thing is, that we just messed it up because there is too many websites.
 
   • ((Parler du calendrier !!))
-
+  The main features of this App are:
   • ((Asso/Prof/Etudiants))
 
 ### The Project :
-To overcome these problems, we had the idea to develop an mobile application (and later maybe a website) to centralized every current applications of higher education (college).
+To overcome these problems, we had the idea to develop a mobile application (IOS and ANDROID). To centralize every current applications of higher education (college).
+
 Pick-Asso has the objective to :
-   - give a better way to send a message to their students with a nice feed, 
+   - give Schools a better way to send a message to their students with a nice feed, 
    - see if the message is read (data-analysis), 
    - make a real calendar of all the events that have taken place and will take place in the establishment (meeting with professionals, open days of the establishment, conferences, etc), 
    - have our own calendar for all classes we have (as weel for the calendar of others students/promotions of our school), 
    - have a schedule of free classrooms (with every specification of each classrooms like the number of places, if the classroom have a video projector, ect), 
    - and more...
-
 
 
 -------------------------------------
