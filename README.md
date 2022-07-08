@@ -1,6 +1,7 @@
 # 2.SE! - Pick'Asso App Project
 The app's goal is to centralize and reinforce the way of taking and sharing information about your high school administration (and more).
 
+
 <!--
 A few resources to get you started if this is your first Flutter project:
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
@@ -13,27 +14,27 @@ For help getting started with Flutter development, view the [online documentatio
 ## Presentation of the Situation and the Project:
 
 ### The Situation :
-During our schooling in higher education (college), we noticed a few things that could be improved. 
+During our schooling in higher education (college), we noticed a few things that could be improved.
 
-  • We noticed that there are many means of communication on different networks. The messages are not very well structured either. On most of the networks, message senders can't really know who visualized the message.
-  
-  • There are a lot of website used. The goal/objective of that was originally to have a specific website for each type of content. It was made like this to have everything well-structured. This was done this way to be useful for the students. In reality, this does not serve its purpose, the information is scattered by all of the networks. Students are often lost when they try to find specific information.
+• We noticed that there are many means of communication on different networks. The messages are not very well structured either. On most of the networks, message senders can't really know who visualized the message.
 
-  • Currently, to check the school time schedule on smartphones, students have to launch a web browser and go to a website, which is not optimized for phones. They also have to reconnect with username and password each time they close it. 
-  
-  • Overall, the communication between students, teachers and administration is not handled well. Each of the categories prefer one network over the others. (Messenger, Teams, Whatsapp, email etc.) 
+• There are a lot of website used. The goal/objective of that was originally to have a specific website for each type of content. It was made like this to have everything well-structured. This was done this way to be useful for the students. In reality, this does not serve its purpose, the information is scattered by all of the networks. Students are often lost when they try to find specific information.
+
+• Currently, to check the school time schedule on smartphones, students have to launch a web browser and go to a website, which is not optimized for phones. They also have to reconnect with username and password each time they close it.
+
+• Overall, the communication between students, teachers and administration is not handled well. Each of the categories prefer one network over the others. (Messenger, Teams, Whatsapp, email etc.)
 
 
 ### The Project :
 To overcome these problems, we had the idea to develop a mobile application (IOS and ANDROID). To centralize every current applications of higher education (college).
 
 Pick-Asso has the objective to :
-   - give Schools a better way to send a message to their students with a nice feed, 
-   - see if the message is read (data-analysis), 
-   - make a real calendar of all the events that have taken place and will take place in the establishment (meeting with professionals, open days of the establishment, conferences, etc), 
-   - have our own calendar for all classes we have (as well for the calendar of others students/promotions of our school), 
-   - have a schedule of free classrooms (with every specification of each classrooms like the number of places, if the classroom have a video projector, ect), 
-   - and more...
+- give Schools a better way to send a message to their students with a nice feed,
+- see if the message is read (data-analysis),
+- make a real calendar of all the events that have taken place and will take place in the establishment (meeting with professionals, open days of the establishment, conferences, etc),
+- have our own calendar for all classes we have (as well for the calendar of others students/promotions of our school),
+- have a schedule of free classrooms (with every specification of each classrooms like the number of places, if the classroom have a video projector, ect),
+- and more...
 
 
 -------------------------------------
@@ -70,7 +71,7 @@ Pick-Asso has the objective to :
 - See all the information of the school (members of the administration, list and addresses of all the campuses, useful contacts and use cases, etc.)
 - Have a news feed (*display of the various posts from the administration and associations sorted by release date "from the most recent to the oldest"*) with the possibility of filtering "Message from the school", "Messages from all the associations" and "Message from my favorite associations" but also by "Tags" affiliated with each of the messages.
 - Ability to watch a single message
-- Publish in the feed (*publish posts on behalf of your association by filling in different fields*) 
+- Publish in the feed (*publish posts on behalf of your association by filling in different fields*)
 - Add tags to the post to categorize it (Posts can be communication messages, events, surveys, etc.)
 - Have a list of the different student associations of the school/campus
 - To be able to see the information of an association (*Name, Acronym, Logo/Image of the association, Description of the association, Constitution of its Office*)
@@ -92,7 +93,7 @@ Pick-Asso has the objective to :
 
 <a name="current-status-project"></a>
 ## Current Status of the Project :
-The project begins a new cycle. 
+The project begins a new cycle.
 We have already set up this project in different languages (Kotlin and Swift for example), but we begin it again in order to add new functionalities: mainly to add the possibility of seeing our application on a web browser, to be able to make some data- analysis of each message (number of impressions, number of participants in an event, possibility of conducting surveys, etc.) and to be able to make marks/grading management for professors (some others features are comming with these too).
 
 
@@ -137,12 +138,12 @@ We have already set up this project in different languages (Kotlin and Swift for
 
 <a name="dev-team"></a>
 ## Developer Team :
-  - [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hugo-bonansea-a284ba18a/) ← M. BONANSEA Hugo,
-  - [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maxime-chardon-4b9846183/) ← M. CHARDON Maxime,
-  - [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/quentin-lecomte-542234162/) ← M. LECOMTE Quentin,
-  - [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/julien-leplat/) ← M. LEPLAT Julien,
-  - [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mael-longefay-guinand/) ← M. LONGEFAY-GUINAND Mael,
-  - [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/antoine-bazire-2b7454233/) ← M. BAZIRE Antoine (Trainee : 2022 June-September)
+- [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hugo-bonansea-a284ba18a/) ← M. BONANSEA Hugo,
+- [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maxime-chardon-4b9846183/) ← M. CHARDON Maxime,
+- [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/quentin-lecomte-542234162/) ← M. LECOMTE Quentin,
+- [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/julien-leplat/) ← M. LEPLAT Julien,
+- [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mael-longefay-guinand/) ← M. LONGEFAY-GUINAND Mael,
+- [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/antoine-bazire-2b7454233/) ← M. BAZIRE Antoine (Trainee : 2022 June-September)
 
 
 
