@@ -15,14 +15,14 @@ For help getting started with Flutter development, view the [online documentatio
 ### The Situation :
 During our schooling in higher education (college), we noticed a few things that could be improved. 
 
-  • First, we noticed that there are many means of communication on different communication networks. The messages are not very well structured either. On most of the networks, message senders can't really know who visualized the message.
+  • We noticed that there are many means of communication on different networks. The messages are not very well structured either. On most of the networks, message senders can't really know who visualized the message.
   
-  • Furthermore, there are a lot of website used. The goal/objective of that was originally to have a specific website for each type of content. It was made like this  to have everything well-structured. This was done this way to be useful for the students. In reality, this does not serve its purpose, the information is scattered by all of the networks. Students are often lost when they try to find specific information.
+  • There are a lot of website used. The goal/objective of that was originally to have a specific website for each type of content. It was made like this to have everything well-structured. This was done this way to be useful for the students. In reality, this does not serve its purpose, the information is scattered by all of the networks. Students are often lost when they try to find specific information.
 
+  • Currently, to check the school time schedule on smartphones, students have to launch a web browser and go to a website, which is not optimized for phones. They also have to reconnect with username and password each time they close it. 
+  
+  • Overall, the communication between students, teachers and administration is not handled well. Each of the categories prefer one network over the others. (Messenger, Teams, Whatsapp, email etc.) 
 
-  • ((Parler du calendrier !!))
-  The main features of this App are:
-  • ((Asso/Prof/Etudiants))
 
 ### The Project :
 To overcome these problems, we had the idea to develop a mobile application (IOS and ANDROID). To centralize every current applications of higher education (college).
@@ -31,7 +31,7 @@ Pick-Asso has the objective to :
    - give Schools a better way to send a message to their students with a nice feed, 
    - see if the message is read (data-analysis), 
    - make a real calendar of all the events that have taken place and will take place in the establishment (meeting with professionals, open days of the establishment, conferences, etc), 
-   - have our own calendar for all classes we have (as weel for the calendar of others students/promotions of our school), 
+   - have our own calendar for all classes we have (as well for the calendar of others students/promotions of our school), 
    - have a schedule of free classrooms (with every specification of each classrooms like the number of places, if the classroom have a video projector, ect), 
    - and more...
 
@@ -57,7 +57,7 @@ Pick-Asso has the objective to :
 
 ### Most Important Specifications & Requirements of the Project :
 - Mobile App (iOS and Android) and Web Services
-- Specfic logins for Administration, Professors and Students (and Associations) ➟ Means that Administration, Professors and Students have different rights and access to different view and features
+- Specific logins for Administration, Teachers and Students (and Associations) ➟ Means that Administration, Teachers and Students have different rights and access to different views and features
 - Have access to different calendar's topic : all classes/promotions of a college, of all free classrooms, of the event on the campus
 - Have different types of calendar views : day-to-day view, week-to-week view, month-to-month view, other...
 - Possibility to receive a notification when there is a change in his schedule
@@ -66,39 +66,23 @@ Pick-Asso has the objective to :
 - ...
 
 ### Possibles Evolutions of the Specifications & Requirements :
-- Possibility of connection to accounts with different rights: Administration Account, Teacher Account and Student Account (& Association Account)
-- Have the possibility to see all the information of his school (members of the administration, list and addresses of all the campuses, useful contacts and use cases, etc.)
-- Have a news feed (*display of the various posts from the administration and associations in the order "from the most recent to the oldest"*) with the possibility of filtering "Message from the school", "Messages from all the associations" and "Message from my favorite associations" but also by "Tags" affiliated with each of the messages.
+- Connection to accounts with different rights: Administration Account, Teacher Account and Student Account (& Association Account)
+- See all the information of the school (members of the administration, list and addresses of all the campuses, useful contacts and use cases, etc.)
+- Have a news feed (*display of the various posts from the administration and associations sorted by release date "from the most recent to the oldest"*) with the possibility of filtering "Message from the school", "Messages from all the associations" and "Message from my favorite associations" but also by "Tags" affiliated with each of the messages.
 - Ability to watch a single message
-- Possibility of publication in the news feed (*publish posts on behalf of your association by filling in different fields*) governed by a system of "tags" allowing the message sent to be categorized - posts can be simple communication messages , events, surveys (or other to be defined).
-- Have a list of the different student associations of our school/campus
+- Publish in the feed (*publish posts on behalf of your association by filling in different fields*) 
+- Add tags to the post to categorize it (Posts can be communication messages, events, surveys, etc.)
+- Have a list of the different student associations of the school/campus
 - To be able to see the information of an association (*Name, Acronym, Logo/Image of the association, Description of the association, Constitution of its Office*)
 - Possibility to put associations as "Favorites"
 - To be able, as a member of the office of an association, to modify the information of an association and to be able to delete it
 - Possibility of making a request to the school for the creation of an association (and possibility of adding other contributors to the association: President, Vice-President, Treasurer, etc.)
-- Possibility, as a member of the office of an association, to modify a message previously sent (*Title, Message, Logo/Image, Type of message (event/communication), Date and Time of event*) or to to delete
+- Possibility, as a member of the office of an association, to modify a message previously sent (*Title, Message, Logo/Image, Type of message (event/communication), Date and Time of event*) or to delete it
 - The possibility as a student to show his participation in an event (limited places or not)
-- The possibility as a member of the office of an association to see the list of participants in this event created and published by this same association
+- The possibility as a member of an association office to see the list of participants in this event (created and published by this same association)
 - Notifications and reminders (depending on the user's settings choice)
-- Comment and reaction space (*type Like Facebook* - WARNING about the GDPR standard (European standard))
+- Comment and react space (*type Like Facebook* - WARNING about the GDPR standard (European standard))
 
-<!--
-- Possibilité de connection a des comptes ayant des droits différents : Compte d'Aministration, Compte de Professeur et Compte d'Étudiants (& Compte d'Association)
-- Avoir la possibilité de voir toutes les informations de son école (membres de l'administration, liste et adresses de tous les campus, contacts utiles et cas d'utilisation, etc)
-- Avoir un fil d'actualités (*affichage des différents posts de l'administration et des associations dans l'ordre "du plus récent au plus ancien"*) avec la possibilité de filtrer "Message de l'école",  "Messages de toutes les associations" et "Message de mes associations favorites" mais aussi par "Tags" affiliés à chacun des messages.
-- Possibilité de regarder un seul et unique message
-- Possibilité de publication dans le fil d'actualités (*publier des posts au nom de son association en remplissant différents champs*) régit par un système de "tags" permettant de catégorisé le message envoyé - les posts peuvent être des simples messages de communication, des évènements, des sondages (ou autre à definir).
-- Avoir un listing des différentes associations étudiantes de notre école/campus
-- Pouvoir voir les informations d'une association (*Nom, Sigle, Logo/Image de l'association, Description de l'association, Constitution de son Bureau*)
-- Possibilité de mettre des associations en tant que "Favorites"
-- Pouvoir, en tant que membre du bureau d'une association, modifier les informations d'une association et pouvoir la supprimer
-- Possibilité de faire une demande auprès de l'école pour la création d'une association (et possibilité de rajouter d'autres contributeurs à l'association : Président, Vice-Président, Trésorier, etc)
-- Possibilité, en tant que membre du bureau d'une association, de modifier un message précédemment envoyé (*Titre, Message, Logo/Image, Type de message (évènement/communication), Date et Heure d'évènement*) ou de le supprimer
-- La possibilité en tant qu'étudiant de montrer sa participation à un événement (places limités ou non) 
-- La possibilité en tant que membre du bureau d'une association de voir la liste des participant à cet événement créé et publié par cette même association
-- Notifications et rappels (en fonctions du choix de l'utilisateur)
-- Espace commentaire et réaction (*type Like Facebook* - WARNING à propos de la norme RGPD (norme Européenne))
--->
 
 
 
