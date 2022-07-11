@@ -1,50 +1,79 @@
+// Copyright 2019 Aleksander Woźniak
+// SPDX-License-Identifier: Apache-2.0
+
 import 'package:flutter/material.dart';
-import 'package:amplify_flutter/amplify_flutter.dart';
-import 'package:amplify_auth_cognito/amplify_auth_cognito.dart';
+import 'package:intl/date_symbol_data_local.dart';
 
-import 'amplifyconfiguration.dart';
+import 'calendar/examples/events.dart';
+import 'calendar/examples/example1.dart';
+import 'calendar/examples/range.dart';
+import 'calendar/examples/combi.dart';
 
-import 'login_page.dart';
-
-
-//before running project make sure to run "amplify init" and run "flutter pub get"
-
-
-void main(){
-
-  runApp(const myApp());
+void main() {
+  initializeDateFormatting().then((_) => runApp(MyApp()));
 }
-// the ui of the app
-class myApp extends StatefulWidget {
-  const myApp({Key? key}): super(key: key);
 
-  @override
-  State<myApp> createState() => _MyAppState();
-  }
-class _MyAppState extends State<myApp>{
-
-  @override
-  void initState(){
-    super.initState();
-    _configureAmplify();
-  }
-
-  Future<void> _configureAmplify() async{
-    final auth = AmplifyAuthCognito();
-    await Amplify.addPlugin(auth);
-
-
-    try{
-      await Amplify.configure(amplifyconfig);
-    }on Exception catch(e){print('config error $e');}
-  }
-
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(primarySwatch: Colors.blue),
-      home: LoginPage(),
+      title: 'TableCalendar Example',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: StartPage(),
+    );
+  }
+}
+
+class StartPage extends StatefulWidget {
+  @override
+  _StartPageState createState() => _StartPageState();
+}
+
+class _StartPageState extends State<StartPage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('TableCalendar Example'),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            const SizedBox(height: 20.0),
+            ElevatedButton(
+              child: Text('Range Selection'),
+              onPressed: () => Navigator.push(
+                context,MaterialPageRoute(builder: (_) => TableRangeExample()),
+              ),
+            ),
+            const SizedBox(height: 12.0),
+            ElevatedButton(
+              child: Text('Events'),
+              onPressed: () => Navigator.push(
+                context,MaterialPageRoute(builder: (_) => TableEventsExample()),
+              ),
+            ),
+            const SizedBox(height: 12.0),
+            ElevatedButton(
+              child: Text('Multiple Selection'),
+              onPressed: () => Navigator.push(
+                context,MaterialPageRoute(builder: (_) => TableMultiExample()),
+              ),
+            ),
+            const SizedBox(height: 12.0),
+            ElevatedButton(
+              child: Text('Complex'),
+              onPressed: () => Navigator.push(
+                context,MaterialPageRoute(builder: (_) => TableComplexExample()),
+              ),
+            ),
+            const SizedBox(height: 20.0),
+          ],
+        ),
+      ),
     );
   }
 }
